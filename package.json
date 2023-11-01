@@ -1,0 +1,35 @@
+{
+  "name": "theme-setup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:main": "NEXT_PUBLIC_THEME=main next dev -p 3000",
+    "dev:secondary": "NEXT_PUBLIC_THEME=secondary next dev -p 3001",
+    "start:main": "NEXT_PUBLIC_THEME=main next start -p 3000",
+    "start:secondary": "NEXT_PUBLIC_THEME=secondary next start -p 5000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@zeit/next-less": "^1.0.1",
+    "antd": "^5.10.3",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3",
+    "next": "12.3.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
